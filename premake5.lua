@@ -5,6 +5,11 @@ project "lua"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    includedirs
+    {
+        ""
+    }
+
     files
     {
        "**.c",
