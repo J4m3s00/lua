@@ -7,8 +7,8 @@ project "lua"
 
     files
     {
-        **.c,
-        **.h
+       "**.c",
+       "**.h"
     }
     
     filter "system:windows"
