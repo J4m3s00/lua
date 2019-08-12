@@ -17,7 +17,6 @@ project "lua"
         "lauxlib.c",
         "lauxlib.h",
         "lbaselib.c",
-        "lbitlib.c",
         "lcode.c",
         "lcode.h",
         "lcorolib.c",
